@@ -5,7 +5,14 @@ package java.linked_list;
  * @see <a href="https://leetcode.cn/problems/merge-two-sorted-lists/description/">merge-two-sorted-lists</a>
  */
 public class mergeTwoLinkedList {
-    //递归
+    /**
+     * recursion
+     * TC: O(m+n) m,n is the capacity of list1 and list2
+     * SC: O(m+n) m,n is the capacity of list1 and list2
+     * @param list1
+     * @param list2
+     * @return
+     */
     public ListNode mergeTwoLists_recursion(ListNode list1, ListNode list2) {
         if (list1 == null) {
             return list2;
@@ -22,7 +29,14 @@ public class mergeTwoLinkedList {
         }
     }
 
-    //迭代
+    /**
+     * iteration
+     * TC: O(m+n) m,n is the capacity of list1 and list2
+     * SC: O(1)   constant space to store a number of variables
+     * @param list1
+     * @param list2
+     * @return
+     */
     public ListNode mergeTwoLists_iteration(ListNode list1, ListNode list2) {
         ListNode prehead = new ListNode(-1);
         ListNode prev = prehead;
@@ -38,7 +52,7 @@ public class mergeTwoLinkedList {
             prev = prev.next;
         }
 
-        //合并list1或list2剩余部分
+        //merge the rest of list1 or list2
         prev.next = list1 == null ? list2 : list1;
         
         return prehead.next;
