@@ -10,7 +10,6 @@ public class partitionLinkedList {
      * double pointer
      * TC: O(n)  n is the capacity of Linked list
      * SC: O(1)
-     *
      * @param head
      * @return
      */
