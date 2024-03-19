@@ -5,7 +5,7 @@ package java.linked_list;
  *
  * @see <a href="https://leetcode.cn/problems/partition-list/description/">partition-list</a>
  */
-public class partitionLinkedList {
+public class PartitionLinkedList {
     /**
      * double pointer
      * TC: O(n)  n is the capacity of Linked list

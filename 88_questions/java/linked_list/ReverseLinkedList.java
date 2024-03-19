@@ -5,7 +5,7 @@ package java.linked_list;
  *
  * @see <a href="https://leetcode.cn/problems/reverse-linked-list/description/">reverse-linked-list</a>
  */
-public class reverseLinkedList {
+public class ReverseLinkedList {
     /**
      * iteration
      * TC: O(n) n is the capacity of Linked list

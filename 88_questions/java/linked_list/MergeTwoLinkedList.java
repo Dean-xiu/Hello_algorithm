@@ -5,7 +5,7 @@ package java.linked_list;
  *
  * @see <a href="https://leetcode.cn/problems/merge-two-sorted-lists/description/">merge-two-sorted-lists</a>
  */
-public class mergeTwoLinkedList {
+public class MergeTwoLinkedList {
     /**
      * recursion
      * TC: O(m+n) m,n is the capacity of list1 and list2

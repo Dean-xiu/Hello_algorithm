@@ -9,7 +9,7 @@ import java.util.Stack;
  *
  * @see <a href="https://leetcode.cn/problems/valid-parentheses/description/">valid-parentheses</a>
  */
-public class valideParentheses {
+public class ValidParentheses {
     static Map<Character, Character> pairs = new HashMap<Character, Character>() {{
         put('(', ')');
         put('[', ']');

@@ -5,7 +5,7 @@ package java.linked_list;
  *
  * @see <a href="https://leetcode.cn/problems/delete-node-in-a-linked-list/description">delete-node-in-a-linked-list</a>
  */
-public class deleteNodeInLinkedList {
+public class DeleteNodeInLinkedList {
     /**
      * TC: O(1)
      * SC: O(1)

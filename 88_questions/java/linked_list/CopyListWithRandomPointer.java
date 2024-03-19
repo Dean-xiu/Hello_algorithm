@@ -8,7 +8,7 @@ import java.util.Map;
  *
  * @see <a href="https://leetcode.cn/problems/copy-list-with-random-pointer/description">copy-list-with-random-pointer</a>
  */
-public class copyListWithRandomPointer {
+public class CopyListWithRandomPointer {
     class Node {
         int val;
         Node next;
