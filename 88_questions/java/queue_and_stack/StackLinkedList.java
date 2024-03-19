@@ -32,7 +32,7 @@ public class StackLinkedList {
      * @return
      */
     public boolean isEmpty() {
-        return stkSize == 0;
+        return size() == 0;
     }
 
     /**
