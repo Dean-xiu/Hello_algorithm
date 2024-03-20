@@ -25,7 +25,7 @@ public class MinStack {
      */
     public void push(int val) {
         mainStack.push(val);
-        minStack.push(Math.min(mainStack.peek(),val));
+        minStack.push(Math.min(minStack.peek(),val));
     }
 
     public void pop() {
