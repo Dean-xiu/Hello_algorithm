@@ -1,6 +1,6 @@
-package java.queue_and_stack;
+package queue_and_stack;
 
-import java.linked_list.ListNode;
+import linked_list.ListNode;
 
 /**
  * Create stack based on linked list

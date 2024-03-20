@@ -1,4 +1,4 @@
-package java.linked_list;
+package linked_list;
 //linked list node definition
 public class ListNode {
     public int val;

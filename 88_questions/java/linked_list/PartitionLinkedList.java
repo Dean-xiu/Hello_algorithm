@@ -1,4 +1,4 @@
-package java.linked_list;
+package linked_list;
 
 /**
  * Question link
