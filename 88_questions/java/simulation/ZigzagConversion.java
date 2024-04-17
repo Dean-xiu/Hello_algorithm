@@ -9,6 +9,14 @@ import java.util.List;
  * @see <a href="https://leetcode.cn/problems/zigzag-conversion/description/">zigzag-conversion</a>
  */
 public class ZigzagConversion {
+    /**
+     * simulation
+     * TC: O(n)  n is the length of s
+     * SC: O(n)  An array is requested to store strings
+     * @param s
+     * @param numRows
+     * @return
+     */
     public String convert(String s, int numRows) {
         if (numRows < 2 || s.length() < numRows) {
             return s;
