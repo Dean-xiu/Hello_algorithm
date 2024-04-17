@@ -1,4 +1,4 @@
-package stimulation;
+package simulation;
 
 /**
  * Question link
@@ -7,7 +7,7 @@ package stimulation;
  */
 public class RotateString {
     /**
-     * Stimulate
+     * Simulate
      * TC: O(n^2)  n is the length of s or goal
      * SC: O(1)
      * @param s

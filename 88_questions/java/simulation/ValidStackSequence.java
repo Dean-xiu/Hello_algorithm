@@ -1,4 +1,4 @@
-package stimulation;
+package simulation;
 
 import java.util.Stack;
 
@@ -9,7 +9,7 @@ import java.util.Stack;
  */
 public class ValidStackSequence {
     /**
-     * stimulate
+     * simulate
      * TC: O(n)  n is the capacity of pushed/popped
      * SC: O(n)  n is the capacity of assist stack
      * @param pushed

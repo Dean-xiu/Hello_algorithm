@@ -1,4 +1,4 @@
-package stimulation;
+package simulation;
 
 /**
  * Question link
