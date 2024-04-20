@@ -13,6 +13,13 @@ public class FirstBadVersion {
         return false;
     }
 
+    /**
+     * Binary search
+     * TC: O(logn)
+     * SC: O(1)
+     * @param n
+     * @return
+     */
     public static int firstBadVersion(int n) {
         int l = 1, r = n;
         while (l <= r) {
