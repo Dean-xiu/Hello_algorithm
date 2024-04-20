@@ -41,7 +41,7 @@ public class RotateImage {
         int n = matrix.length;
 
         for (int i = 0; i < n / 2; i++) {
-            for (int j = 0; j < (n + 1) / 2; i++) {
+            for (int j = 0; j < (n + 1) / 2; j++) {
                 //A,B,C,D are the four corners of matrix rotated clockwise
                 //store A(matrix[i][j]) with tmp
                 int tmp = matrix[i][j];
