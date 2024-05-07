@@ -30,6 +30,7 @@ public class Permutations {
     private void dfs(Integer x) {
         if (x == path.size() - 1) {
             res.add(new ArrayList<>(path));
+            return;
         }
 
         for (int i = x; i < path.size(); i++) {
